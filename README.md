@@ -44,7 +44,7 @@ This project implements an intelligent anomaly detection system that learns norm
 ## Architecture
 ## System Architecture
 
-![Architecture Diagram](docs/images/architecture.png)
+![Architecture Diagram](docs/images/architectural_diagram.png)
 
 End-to-end machine learning pipeline integrating multi-database utility data, feature engineering, anomaly detection, and real-time API serving for enterprise deployment.
 1. Ingest historical meter readings from CSV or SQL Server
