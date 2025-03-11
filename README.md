@@ -185,4 +185,4 @@ curl -X POST http://localhost:8000/predict \
 
 ## Notes
 
-This repo is intentionally practical and recruiter-friendly: it is easy to run locally, but the structure is also suitable for hardening into a real enterprise MVP.
+This repo is intentionally practical and production-ready: it is easy to run locally, but the structure is also suitable for hardening into a real enterprise MVP.
