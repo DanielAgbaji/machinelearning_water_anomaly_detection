@@ -4,7 +4,7 @@ Production ready project for detecting potential leaks and abnormal water usage 
 
 ## About this Project
 
-This portfolio project is built by Daniel Agbaji's using the following TechStack:
+This portfolio project was built by Daniel Agbaji's using the following TechStack:
 - Python and related packages/libraries
 - C# / .NET services
 - SQL Server, PostgreSQL, MySQL
