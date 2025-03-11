@@ -20,6 +20,15 @@ It demonstrates:
 - real-time inference API for downstream portals/services
 - integration path for .NET production systems
 
+## Key Highlights
+
+- Production-style end-to-end ML system (not just a model)  
+- Real-world use case: utility meter analytics and leak detection  
+- Integrates Python ML with .NET enterprise systems  
+- Supports both batch and real-time inference workflows  
+- Designed for multi-database and multi-tenant environments  
+- Cloud-ready architecture using Azure services  
+
 ## Business Problem
 
 Utilities traditionally rely on static thresholds or manual review to detect leaks and abnormal consumption, which often results in delayed detection and missed anomalies.
@@ -42,7 +51,7 @@ This project implements an intelligent anomaly detection system that learns norm
 - Improves customer experience through proactive insights  
 
 ## Architecture
-## System Architecture
+### System Architecture
 
 ![Architecture Diagram](docs/images/architectural_diagram.png)
 
@@ -55,6 +64,36 @@ End-to-end machine learning pipeline integrating multi-database utility data, fe
 6. Save predictions to SQL Server
 7. Expose real-time scoring endpoints through FastAPI
 8. Optionally call the API from a .NET service or customer portal backend
+
+## Cloud Deployment (Azure)
+
+This system is designed to be cloud-ready and can be deployed using Microsoft Azure for scalability and production reliability.
+
+### Cloud Architecture
+
+- **Azure Data Factory** – orchestrates data ingestion pipelines  
+- **Azure Blob Storage** – stores raw and processed meter data  
+- **Azure SQL Database** – stores engineered features and anomaly results  
+- **Azure Machine Learning** – trains and manages ML models  
+- **Azure Container Apps / AKS** – hosts FastAPI inference service  
+- **Azure API Management** – exposes secure endpoints  
+- **Application Insights** – monitors model performance and API usage  
+
+### Deployment Workflow
+
+1. Ingest meter data into Azure Blob Storage or Azure SQL  
+2. Train model using Azure ML pipelines  
+3. Register model in Azure ML Model Registry  
+4. Deploy model as a containerized API  
+5. Integrate with .NET services and customer portals  
+6. Monitor performance and retrain as needed  
+
+### Enterprise Capabilities
+
+- Scalable multi-tenant architecture  
+- Real-time anomaly detection via API endpoints  
+- Batch analytics for historical insights  
+- Model monitoring and drift detection  
 
 ## Repository structure
 
