@@ -175,7 +175,7 @@ curl -X POST http://localhost:8000/predict \
 - Developed batch and API inference workflows to support both offline analytics and real-time portal/service integration.
 - Designed the solution to integrate with .NET utility platforms and multi-tenant database environments.
 
-## Strong next upgrades
+## Strong Author's Recommendation- next upgrades
 
 - add labeled leak events and compare supervised models
 - schedule retraining with Airflow or a .NET Worker Service
