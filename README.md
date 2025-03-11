@@ -1,10 +1,11 @@
 # AI-Powered Water Consumption Anomaly Detection System
 
-Production-style starter project for detecting potential leaks and abnormal water usage from meter readings.
+Production ready project for detecting potential leaks and abnormal water usage from meter readings.
 
-## Why this project is strong for ML/AI recruiting
+## About this Project
 
-This portfolio project is deliberately aligned to Daniel Agbaji's background in:
+This portfolio project is built by Daniel Agbaji's using the following TechStack:
+- Python and related packages/libraries
 - C# / .NET services
 - SQL Server, PostgreSQL, MySQL
 - Utility / AMI / meter-reading analytics
@@ -19,19 +20,33 @@ It demonstrates:
 - real-time inference API for downstream portals/services
 - integration path for .NET production systems
 
-## Business problem
+## Business Problem
 
-Utilities often detect leaks and abnormal consumption with static thresholds or manual review. This project builds an anomaly detection pipeline that learns normal usage patterns and assigns an anomaly score to each meter reading window.
+Utilities traditionally rely on static thresholds or manual review to detect leaks and abnormal consumption, which often results in delayed detection and missed anomalies.
 
-Typical use cases:
-- leak candidate detection
-- unusual overnight flow detection
-- abnormal daily/hourly consumption spikes
-- proactive customer notifications
-- operations dashboard prioritization
+This project implements an intelligent anomaly detection system that learns normal water usage behavior from historical meter data and dynamically assigns anomaly scores to each reading window. This enables early detection of irregular patterns without requiring labeled leak data.
+
+### Key Capabilities
+
+- Detects potential leak conditions based on abnormal consumption patterns  
+- Identifies unusual overnight flow behavior (a strong leak indicator)  
+- Flags sudden spikes in hourly or daily usage beyond learned baselines  
+- Enables proactive customer notifications and alerting workflows  
+- Supports operations teams with prioritized anomaly dashboards  
+
+### Business Impact
+
+- Reduces time to detect leaks and abnormal usage  
+- Minimizes water loss and operational inefficiencies  
+- Enables data-driven decision-making for utility operations  
+- Improves customer experience through proactive insights  
 
 ## Architecture
+## System Architecture
 
+![Architecture Diagram](architectural_diagram.png)
+
+End-to-end machine learning pipeline integrating multi-database utility data, feature engineering, anomaly detection, and real-time API serving for enterprise deployment.
 1. Ingest historical meter readings from CSV or SQL Server
 2. Engineer rolling and behavioral features
 3. Train an Isolation Forest anomaly model
