@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(ps -p 8442 -o pid,ppid,command)"
-    ]
-  }
-}
