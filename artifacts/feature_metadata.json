@@ -1,0 +1,15 @@
+{
+  "feature_columns": [
+    "consumption_gallons",
+    "prev_consumption_gallons",
+    "rolling_24h_avg",
+    "rolling_24h_max",
+    "rolling_7d_avg",
+    "delta_from_prev",
+    "overnight_flag",
+    "weekend_flag",
+    "hour_of_day",
+    "day_of_week",
+    "deviation_from_24h_avg"
+  ]
+}

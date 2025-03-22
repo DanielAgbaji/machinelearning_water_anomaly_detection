@@ -1,0 +1,10 @@
+## Sensitive config - never commit these
+appsettings.Development.json
+appsettings.Production.json
+
+## .NET build output
+bin/
+obj/
+
+## User secrets
+secrets.json
