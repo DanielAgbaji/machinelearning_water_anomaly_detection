@@ -1,0 +1,59 @@
+# ── Claude AI ────────────────────────────────────────────────────────────────
+.claude/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.egg
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+!appsettings.json
+
+# ── ML Artifacts ─────────────────────────────────────────────────────────────
+artifacts/*.joblib
+artifacts/*.csv
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── .NET ─────────────────────────────────────────────────────────────────────
+dotnet/**/bin/
+dotnet/**/obj/
+dotnet/**/*.user
+dotnet/**/.vs/
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.swp
+*.swo
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
