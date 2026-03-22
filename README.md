@@ -5,7 +5,7 @@ Production-style starter project for detecting potential leaks and abnormal wate
 ## About this Project
 
 This portfolio project is built by Daniel Agbaji's using the following TechStack:
--Python and related packages/libraries
+- Python and related packages/libraries
 - C# / .NET services
 - SQL Server, PostgreSQL, MySQL
 - Utility / AMI / meter-reading analytics
