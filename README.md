@@ -42,7 +42,11 @@ This project implements an intelligent anomaly detection system that learns norm
 - Improves customer experience through proactive insights  
 
 ## Architecture
+## System Architecture
 
+![Architecture Diagram](docs/architecture.png)
+
+End-to-end machine learning pipeline integrating multi-database utility data, feature engineering, anomaly detection, and real-time API serving for enterprise deployment.
 1. Ingest historical meter readings from CSV or SQL Server
 2. Engineer rolling and behavioral features
 3. Train an Isolation Forest anomaly model
