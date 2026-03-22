@@ -1,6 +1,6 @@
 # AI-Powered Water Consumption Anomaly Detection System
 
-Production-style starter project for detecting potential leaks and abnormal water usage from meter readings.
+Production ready project for detecting potential leaks and abnormal water usage from meter readings.
 
 ## About this Project
 
