@@ -20,16 +20,26 @@ It demonstrates:
 - real-time inference API for downstream portals/services
 - integration path for .NET production systems
 
-## Business problem
+## Business Problem
 
-Utilities often detect leaks and abnormal consumption with static thresholds or manual review. This project builds an anomaly detection pipeline that learns normal usage patterns and assigns an anomaly score to each meter reading window.
+Utilities traditionally rely on static thresholds or manual review to detect leaks and abnormal consumption, which often results in delayed detection and missed anomalies.
 
-Typical use cases:
-- leak candidate detection
-- unusual overnight flow detection
-- abnormal daily/hourly consumption spikes
-- proactive customer notifications
-- operations dashboard prioritization
+This project implements an intelligent anomaly detection system that learns normal water usage behavior from historical meter data and dynamically assigns anomaly scores to each reading window. This enables early detection of irregular patterns without requiring labeled leak data.
+
+### Key Capabilities
+
+- Detects potential leak conditions based on abnormal consumption patterns  
+- Identifies unusual overnight flow behavior (a strong leak indicator)  
+- Flags sudden spikes in hourly or daily usage beyond learned baselines  
+- Enables proactive customer notifications and alerting workflows  
+- Supports operations teams with prioritized anomaly dashboards  
+
+### Business Impact
+
+- Reduces time to detect leaks and abnormal usage  
+- Minimizes water loss and operational inefficiencies  
+- Enables data-driven decision-making for utility operations  
+- Improves customer experience through proactive insights  
 
 ## Architecture
 
